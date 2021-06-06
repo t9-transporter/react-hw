@@ -1,0 +1,29 @@
+.top {
+  display: flex;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.orange {
+  color: orange;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+.lblue {
+  color: lightblue;
+}
+
+.blue {
+  color: blue;
+}
+
+.violet {
+  color: violet;
+}
