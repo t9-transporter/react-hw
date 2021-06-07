@@ -5,7 +5,7 @@ import Route from "./components/route";
 import CheckCounterPage from "../src/containers/CheckCounterContainer";
 import RegisterPage from "../src/containers/RegisterContainer";
 import pageThree from "../src/components/pages/pageThree";
-import pageFour from "../src/components/pages/pageFour";
+import pageFour from "../src/containers/pageFourPro";
 import pageFive from "../src/components/pages/pageFive";
 import pageSix from "../src/components/pages/pageSix";
 import pageSeven from "../src/components/pages/pageSeven";

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "../../slyles/pages.css";
 
 const PageFour = () => {
@@ -15,9 +14,6 @@ const PageFour = () => {
         <button onClick={increment}>Add</button>
         <button onClick={decrement}>Remove</button>
       </div>
-      <Link className="top green" to="/pageFive">
-        Go to Page#5
-      </Link>
     </div>
   );
 };
