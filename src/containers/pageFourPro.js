@@ -19,7 +19,11 @@ let PageFourPro = () => {
       <Link className="top green" to="/pageFive">
         Go to Page#5
       </Link>
-      <h3>Counters: {count.length}</h3>
+      <h3>
+        {count.length > 0
+          ? "Counters: " + count.length
+          : "Add new counters, man!"}
+      </h3>
       <button onClick={Add}>Add Counter</button>
       <button onClick={Remove}>Remove Counter</button>
       {count}
