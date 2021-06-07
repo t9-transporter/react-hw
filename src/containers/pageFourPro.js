@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import PageFour from "../components/pages/pageFour";
+import "../slyles/pages.css";
 
 let PageFourPro = () => {
   let [count, setCount] = useState([]);
@@ -19,13 +20,22 @@ let PageFourPro = () => {
       <Link className="top green" to="/pageFive">
         Go to Page#5
       </Link>
-      <h3>
-        {count.length > 0
-          ? "Counters: " + count.length
-          : "Add new counters, man!"}
-      </h3>
-      <button onClick={Add}>Add Counter</button>
-      <button onClick={Remove}>Remove Counter</button>
+      <div className="flexMid">
+        <button className="btnAwsGreen" onClick={Remove}>
+          Remove Counter
+        </button>
+
+        <h3>
+          {count.length > 0
+            ? "Counters: " + count.length
+            : "Add new counters, man!"}
+        </h3>
+
+        <button className="btnAwsGreen" onClick={Add}>
+          Add Counter
+        </button>
+      </div>
+
       {count}
     </div>
   );

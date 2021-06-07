@@ -9,10 +9,14 @@ const PageFour = () => {
 
   return (
     <div>
-      <div>
+      <div className="flexMid">
+        <button className="btnAws" onClick={decrement}>
+          Remove
+        </button>
         <h3>Counter: {counter}</h3>
-        <button onClick={increment}>Add</button>
-        <button onClick={decrement}>Remove</button>
+        <button className="btnAws" onClick={increment}>
+          Add
+        </button>
       </div>
     </div>
   );
