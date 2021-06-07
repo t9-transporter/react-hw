@@ -23,7 +23,6 @@ function App() {
           <Route path={five} component={pageFive} />
           <Route path={six} component={pageSix} />
           <Route path={seven} component={pageSeven} />
-
           <Route path={root} component={RegisterPage} />
 
           <Redirect to={root} />
